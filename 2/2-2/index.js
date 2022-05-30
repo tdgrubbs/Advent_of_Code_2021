@@ -1,4 +1,4 @@
-
+const input = require('./input.js');
 
 const inputArr = input.split('\n').flatMap((x) => [x.split(' ')])
 
