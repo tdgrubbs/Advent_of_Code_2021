@@ -1,3 +1,5 @@
+const input = require('./input.js');
+
 const inputArr = input.split(' ').map((x) => parseInt(x));
 
 const windows = (l, xs) =>
